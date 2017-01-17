@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--menu for BottomBar
+    Icons are from plugin -> Android Material Design Icon
+    give every menu item an icon ,title and id.
+    they will appear in order of definition
+    NOTE: items should not be greater than 3-5
+    we will add this in main_xml inside BottomNavigationView
+    as design:menu
+-->
+
+    <item
+        android:id="@+id/notification"
+        android:title="@string/notifications"
+        android:icon="@drawable/ic_notifications"/>
+    <item
+        android:id="@+id/favourites"
+        android:title="@string/favourites"
+        android:icon="@drawable/ic_favorite"/>
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/explore"
+        android:title="@string/explore"
+        android:icon="@drawable/ic_explore"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_account_circle"/>
+</menu>
